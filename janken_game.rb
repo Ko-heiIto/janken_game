@@ -2,6 +2,7 @@ def janken
   puts "［0］：グ－\n［1］：チョキ\n［2］：パ－"
 
   player_hand = gets.to_i
+  
   program_hand = rand(3)
 
   jankens = ["グ－", "チョキ", "パ－"]
